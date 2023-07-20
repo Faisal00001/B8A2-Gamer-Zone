@@ -1,0 +1,117 @@
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  .logo-container {
+    margin: auto;
+    width: 100%;
+  }
+  .nav-items-container {
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-text-container,
+  .banner-img-container {
+    width: 100%;
+  }
+  .banner-text-container {
+    padding: 10px;
+  }
+  /* Online Gammer section */
+  .online-game-watch {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .online-game-box img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .online-game-box {
+    text-align: center;
+  }
+  /* Play Instant */
+  .play-instant {
+    flex-direction: column;
+  }
+  .play-instant-text-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .play-instant-image-container {
+    width: 100%;
+  }
+  /* Footer section */
+  .footer-support {
+    grid-template-columns: repeat(3, 130px);
+  }
+  .footer-icons {
+    grid-template-columns: repeat(3, 70px);
+  }
+  .footer-terms {
+    grid-template-columns: repeat(2, 200px);
+  }
+  .copy {
+    width: 300px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 990px) {
+  nav {
+    flex-direction: column;
+  }
+  .logo-container {
+    margin: auto;
+    width: 100%;
+  }
+
+  .nav-items-container {
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-text-container,
+  .banner-img-container {
+    width: 100%;
+  }
+  /* Online Gammer section */
+  .online-game-watch {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .online-game-box {
+    text-align: center;
+  }
+
+  /* Play Instant */
+  .play-instant {
+    flex-direction: column;
+  }
+  .play-instant-text-container {
+    width: 100%;
+    text-align: center;
+  }
+  .play-instant-image-container {
+    width: 100%;
+  }
+  .cat-girl {
+    top: 80%;
+    right: 60%;
+  }
+  /* footer  */
+  .footer-support {
+    grid-template-columns: repeat(3, 130px);
+  }
+  .footer-icons {
+    grid-template-columns: repeat(3, 70px);
+  }
+  .footer-terms {
+    grid-template-columns: repeat(2, 200px);
+  }
+}
